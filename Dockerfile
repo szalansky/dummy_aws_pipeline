@@ -8,5 +8,5 @@ WORKDIR /app
 
 ADD . /app
 
-RUN bundle install && chmod +x /app/script/docker_start
+RUN apt-get update && apt-get install -y nodejs && bundle install && chmod +x /app/script/docker_start
 CMD ["/app/script/docker_start"]

@@ -14,3 +14,5 @@
 .git
 .vagrant
 config/database.yml*
+config/database.travis.yml*
+docker-compose*

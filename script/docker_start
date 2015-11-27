@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bundle exec rails s -E RAILS_ENV -p 3000;

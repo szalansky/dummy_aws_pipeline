@@ -1,0 +1,16 @@
+*.log
+*.swp
+*.tmproj
+*/*.log
+*/*.swp
+*/*~
+*/.DS_Store
+*/.\#*
+*~
+.DS_Store
+.\#*
+.binstubs*
+.bundle
+.git
+.vagrant
+config/database.yml*
